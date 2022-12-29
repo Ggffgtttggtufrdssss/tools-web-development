@@ -1,11 +1,13 @@
 import React from "react";
-import datas from "../data/datas.json";
-import Card from "../components/Card";
+// import datas from "../data/datas.json";
+// import Card from "../components/Card";
+import SearchBar from "../components/SearchBar";
 
 const accueil = () => {
   return (
     <div className="flex flex-wrap gap-4 text-center  justify-center bg-black py-4">
-      {datas.map((item, index) => (
+      <SearchBar />
+      {/* {datas.map((item, index) => (
         <Card
           key={index}
           id={item.id}
@@ -13,7 +15,7 @@ const accueil = () => {
           description={item.description}
           url={item.url}
         />
-      ))}
+      ))} */}
     </div>
   );
 };

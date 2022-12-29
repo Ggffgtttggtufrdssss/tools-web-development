@@ -5,7 +5,7 @@
   padding: 0.2rem 0;
   outline: none;
   background-color: transparent;
-  color: #0d0c22;
+  color: white;
   transition: 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
@@ -18,7 +18,7 @@ input:hover {
 }
 
 .input::placeholder {
-  color: #0d0c22;
+  color: white;
 }
 
 .input:focus::placeholder {
