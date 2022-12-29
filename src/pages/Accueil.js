@@ -11,6 +11,7 @@ const accueil = () => {
           id={item.id}
           label={item.label}
           description={item.description}
+          url={item.url}
         />
       ))}
     </div>

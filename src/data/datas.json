@@ -2,18 +2,44 @@
   {
     "id": 1,
     "label": "HTML",
-    "description": "HTML signifie HyperText Markup Language. Il est utilisé sur le frontend et donne la structure à la page Web que vous pouvez styliser à l'aide de CSS et rendre interactive à l'aide de JavaScript."
+    "description": "HyperText Markup Language. Langage de balisage ",
+    "url": "/html"
   },
-  { "id": 2, "label": "CSS" },
-  { "id": 2, "label": "JavaScript" },
-  { "id": 3, "label": "ChakraUI" },
-  { "id": 4, "label": "Tailwind" },
-  { "id": 5, "label": "Hook" },
+  {
+    "id": 2,
+    "label": "CSS",
+    "description": "Cascading Style Sheets. Langage de style",
+    "url": "/css"
+  },
+  {
+    "id": 2,
+    "label": "JavaScript",
+    "description": "JavaScript. Langage de programmation",
+    "url": "/js"
+  },
+  {
+    "id": 3,
+    "label": "ChakraUI",
+    "description": "Chakra UI. Librairie de style",
+    "url": "/chakra"
+  },
+  {
+    "id": 4,
+    "label": "Tailwind",
+    "description": "Tailwind. Librairie de style",
+    "url": "/tailwind"
+  },
+  {
+    "id": 5,
+    "label": "React.js",
+    "description": "React. Librairie JS - Programmation",
+    "url": "/react"
+  },
   { "id": 6, "label": "Redux" },
   { "id": 7, "label": "Context" },
   { "id": 8, "label": "Adobe Illustrator" },
   { "id": 9, "label": "Express" },
-  { "id": 10, "label": "React" },
+  { "id": 10, "label": "Hook" },
   { "id": 11, "label": "TypeScript" },
   { "id": 12, "label": "Node" },
   { "id": 13, "label": "Three.js" },

@@ -1,4 +1,5 @@
 import React from "react";
+
 import "../style/btn-module.css";
 
 const BtnCode = () => {
@@ -12,7 +13,7 @@ const BtnCode = () => {
             fill="currentColor"
           ></path>
         </svg>{" "}
-        Code
+        Ressources
       </span>
     </button>
   );

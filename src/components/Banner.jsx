@@ -1,11 +1,14 @@
 import React from "react";
 import myYear from "../images/gif.png";
+import SearchBar from "./SearchBar";
 
 const Banner = () => {
   return (
     <div>
-      {" "}
-      <img src={myYear} alt="présentation 2023" className="h-1/5 w-1/5 " />
+      <div className="flex items-center justify-around">
+        <img src={myYear} alt="présentation 2023" className="h-1/5 w-1/5 " />
+        <SearchBar />
+      </div>
       <section className="bg-black">
         <div className="max-w-lg bg-black px-4  py-8 mx-auto text-left  md:text-center">
           <h1 className="text-3xl font-extrabold leading-10 tracking-tight text-left text-white  sm:leading-none md:text-6xl  lg:text-7xl">
