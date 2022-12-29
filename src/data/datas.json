@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "label": "HTML",
+    "description": "HTML signifie HyperText Markup Language. Il est utilisé sur le frontend et donne la structure à la page Web que vous pouvez styliser à l'aide de CSS et rendre interactive à l'aide de JavaScript."
+  },
+  { "id": 2, "label": "CSS" },
+  { "id": 2, "label": "JavaScript" },
+  { "id": 3, "label": "ChakraUI" },
+  { "id": 4, "label": "Tailwind" },
+  { "id": 5, "label": "Hook" },
+  { "id": 6, "label": "Redux" },
+  { "id": 7, "label": "Context" },
+  { "id": 8, "label": "Adobe Illustrator" },
+  { "id": 9, "label": "Express" },
+  { "id": 10, "label": "React" },
+  { "id": 11, "label": "TypeScript" },
+  { "id": 12, "label": "Node" },
+  { "id": 13, "label": "Three.js" },
+  { "id": 14, "label": "Next" },
+  { "id": 15, "label": "Strapi" },
+  { "id": 16, "label": "Notion" }
+]
