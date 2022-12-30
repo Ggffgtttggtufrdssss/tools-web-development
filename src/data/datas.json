@@ -32,18 +32,23 @@
   {
     "id": 5,
     "label": "React.js",
-    "description": "React. Librairie JS - Programmation",
+    "description": "React.js - Librairie JS - Programmation",
     "url": "/react"
   },
-  { "id": 6, "label": "Redux" },
-  { "id": 7, "label": "Context" },
-  { "id": 8, "label": "Adobe Illustrator" },
-  { "id": 9, "label": "Express" },
-  { "id": 10, "label": "Hook" },
-  { "id": 11, "label": "TypeScript" },
-  { "id": 12, "label": "Node" },
-  { "id": 13, "label": "Three.js" },
-  { "id": 14, "label": "Next" },
-  { "id": 15, "label": "Strapi" },
-  { "id": 16, "label": "Notion" }
+  { "id": 6, "label": "Redux", "description": "", "url": "" },
+  { "id": 7, "label": "Context", "description": "", "url": "" },
+  { "id": 8, "label": "Adobe Illustrator", "description": "", "url": "" },
+  { "id": 9, "label": "Express", "description": "", "url": "" },
+  { "id": 10, "label": "Hook", "description": "", "url": "" },
+  { "id": 11, "label": "TypeScript", "description": "", "url": "" },
+  { "id": 12, "label": "Node", "description": "", "url": "" },
+  { "id": 13, "label": "Three.js", "description": "", "url": "" },
+  {
+    "id": 14,
+    "label": "Next",
+    "description": "Next.js - Framework basé sur JavaScript",
+    "url": ""
+  },
+  { "id": 15, "label": "Strapi", "description": "", "url": "" },
+  { "id": 16, "label": "Notion", "description": "", "url": "" }
 ]

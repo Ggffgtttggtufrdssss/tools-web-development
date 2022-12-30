@@ -2,7 +2,7 @@ import React from "react";
 
 const chakra = () => {
   return (
-    <div className="m-8 text-md lg:text-2xl mb-12">
+    <div className="m-8 text-md lg:text-lg mb-12">
       <p className="mb-8">
         Chakra UI est une bibliothèque de composants simple, modulaire et
         accessible qui vous donne les blocs de construction dont vous avez
@@ -23,7 +23,7 @@ const chakra = () => {
             href="https://chakra-ui.com/getting-started"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-green-700"
+            className="hover:text-green-700 "
           >
             Officiel doc
           </a>

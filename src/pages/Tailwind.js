@@ -2,12 +2,13 @@ import React from "react";
 
 const tailwind = () => {
   return (
-    <div className="m-8 text-md lg:text-2xl mb-12">
+    <div className="m-8 text-md lg:text-lg mb-12">
       <p className="mb-8">
         CSS Framework qui fournit des classes CSS atomiques pour vous aider à
-        styliser des composants, par exemple flex, pt-4, text-center et
-        rotate-90 qui peuvent être composés pour construire n'importe quelle
-        conception, directement dans votre balisage.
+        styliser des composants, par exemple <strong>flex</strong>,{" "}
+        <strong>pt-4</strong>,<strong>text-center</strong> et{" "}
+        <strong>rotate-90</strong> qui peuvent être composés pour construire
+        n'importe quelle conception, directement dans votre balisage.
         <br />
         <br />
         📌 Un cadre CSS fournit à l'utilisateur une feuille de style CSS
@@ -24,7 +25,7 @@ const tailwind = () => {
             href="https://tailwindcss.com"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-green-700"
+            className="hover:text-green-700 "
           >
             Official website
           </a>
