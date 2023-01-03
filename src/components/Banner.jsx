@@ -1,9 +1,12 @@
 import React from "react";
+
 import myYear from "../images/gif.png";
+import PopupCalendly from "./PopupCalendly";
 
 const Banner = () => {
   return (
     <div>
+      <PopupCalendly />
       <div className="flex items-left ">
         <img src={myYear} alt="présentation 2023" className="h-1/5 w-1/5 " />
       </div>

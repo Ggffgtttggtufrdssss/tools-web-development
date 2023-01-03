@@ -37,7 +37,7 @@
   },
   { "id": 6, "label": "Redux", "description": "", "url": "" },
   { "id": 7, "label": "Context", "description": "", "url": "" },
-  { "id": 8, "label": "Adobe Illustrator", "description": "", "url": "" },
+  { "id": 8, "label": "Babel", "description": "Compilateur", "url": "/babel" },
   { "id": 9, "label": "Express", "description": "", "url": "" },
   { "id": 10, "label": "Hook", "description": "", "url": "" },
   { "id": 11, "label": "TypeScript", "description": "", "url": "" },
@@ -50,5 +50,11 @@
     "url": ""
   },
   { "id": 15, "label": "Strapi", "description": "", "url": "" },
-  { "id": 16, "label": "Notion", "description": "", "url": "" }
+  { "id": 16, "label": "Notion", "description": "", "url": "" },
+  {
+    "id": 17,
+    "label": "Calendly agenda",
+    "description": "Prise de RV",
+    "url": "/calendly"
+  }
 ]

@@ -9,6 +9,8 @@ import Css from "./pages/Css";
 import Js from "./pages/Js";
 import Chakra from "./pages/Chakra";
 import Tailwind from "./pages/Tailwind";
+import Babel from "./pages/Babel";
+import Calendly from "./pages/Calendly";
 import Navbar from "./components/NavBar";
 import Footer from "./components/Footer";
 import { Route, Routes } from "react-router-dom";
@@ -27,6 +29,8 @@ function App() {
         <Route path="js" element={<Js />} />
         <Route path="chakra" element={<Chakra />} />
         <Route path="tailwind" element={<Tailwind />} />
+        <Route path="babel" element={<Babel />} />
+        <Route path="calendly" element={<Calendly />} />
       </Routes>
 
       <Footer />
