@@ -4,9 +4,10 @@ const css = () => {
   return (
     <div className="m-8 text-md lg:text-lg mb-12">
       <p className="mb-8">
-        CSS est la langue utilisée pour styliser l'avant-plan de tout site Web.
-        CSS est une technologie de pierre angulaire du World Wide Web, aux côtés
-        de HTML et de JavaScript.
+        <strong>CSS</strong> est la langue utilisée pour styliser l'avant-plan
+        de tout site Web. CSS est une technologie de pierre angulaire du World
+        Wide Web, aux côtés de HTML et de JavaScript.
+        <br />
         <br />
         📌 voir Responsive design & Media Queries
         <br />

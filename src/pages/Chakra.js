@@ -4,9 +4,9 @@ const chakra = () => {
   return (
     <div className="m-8 text-md lg:text-lg mb-12">
       <p className="mb-8">
-        Chakra UI est une bibliothèque de composants simple, modulaire et
-        accessible qui vous donne les blocs de construction dont vous avez
-        besoin pour construire vos applications React.
+        <strong>Chakra UI</strong> est une bibliothèque de composants simple,
+        modulaire et accessible qui vous donne les blocs de construction dont
+        vous avez besoin pour construire vos applications React.
         <br />
         <br />
         📌 Un cadre CSS fournit à l'utilisateur une feuille de style CSS
@@ -25,7 +25,7 @@ const chakra = () => {
             rel="noreferrer"
             className="hover:text-green-700 "
           >
-            Officiel doc
+            Chakra UI - officiel website
           </a>
         </li>
 

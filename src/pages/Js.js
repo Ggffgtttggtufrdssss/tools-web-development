@@ -4,13 +4,15 @@ const js = () => {
   return (
     <div className="m-8 text-md lg:text-lg mb-12">
       <p className="mb-8">
-        JavaScript vous permet d'ajouter de l'interactivité à vos pages. Les
-        exemples courants que vous avez peut-être vus sur les sites Web sont les
-        curseurs, les interactions de clics, les fenêtres contextuelles, etc.
+        <strong>JavaScript</strong> vous permet d'ajouter de l'interactivité à
+        vos pages. Les exemples courants que vous avez peut-être vus sur les
+        sites Web sont les curseurs, les interactions de clics, les fenêtres
+        contextuelles, etc.
+        <br />
         <br />
         📌 voir Algorithmes (Codewars...)
         <br />
-        📌 voir React.js, Next.js, Vue.js...tous sont sur une base JavaScript.
+        📌 voir React.js, Next.js, Vue.js...tous sont basés sur du JavaScript.
       </p>
       <ul className="pl-4 shadow-2xl rounded-xl">
         <li>

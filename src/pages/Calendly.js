@@ -4,16 +4,20 @@ const calendly = () => {
   return (
     <div className="m-8 text-md lg:text-lg mb-12">
       <p className="mb-8">
-        Calendly est un logiciel de planification et de prise de rendez-vous qui
-        aide les particuliers et les organisations à planifier et à gérer les
-        rendez-vous et les réunions avec les clients et les collègues. Il permet
-        aux utilisateurs de créer des liens de planification personnalisables
-        qui peuvent être partagés avec d'autres, ce qui leur permet de planifier
-        facilement des rendez-vous ou des réunions avec l'utilisateur à un
-        moment qui fonctionne pour les deux parties.
+        <strong>Calendly</strong> est un logiciel de planification et de prise
+        de rendez-vous qui aide les particuliers et les organisations à
+        planifier et à gérer les rendez-vous et les réunions avec les clients et
+        les collègues. Il permet aux utilisateurs de créer des liens de
+        planification personnalisables qui peuvent être partagés avec d'autres,
+        ce qui leur permet de planifier facilement des rendez-vous ou des
+        réunions avec l'utilisateur à un moment qui fonctionne pour les deux
+        parties.
         <br />
         <br />
-        📌 <code>npm install --save react-calendly</code>
+        📌{" "}
+        <code>
+          <strong>npm install --save react-calendly</strong>
+        </code>
         <div className="p-4">
           Ajout de l'un des 5 widgets possibles
           <a
@@ -22,18 +26,35 @@ const calendly = () => {
             rel="noreferrer"
             className="hover:text-green-700 "
           >
-            (voir doc npmjs de react-calendly)
+            (voir doc npmjs de react-calendly)- possibilité de styliser avec
+            <code>
+              {" "}
+              <strong>textColor</strong>,
+            </code>
+            <code>
+              {" "}
+              <strong>text</strong>,
+            </code>
+            <code>
+              {" "}
+              et <strong>color</strong>
+            </code>
           </a>
-          <li>InlineWidget</li>
           <li>
-            PopupWidget - possibilité de styliser avec
-            <code> textColor,</code>
-            <code> text,</code>
-            <code> et color</code>
+            <strong>InlineWidget</strong>
           </li>
-          <li>PopupButton</li>
-          <li>CustomButton</li>
-          <li>useCalendlyEventListener</li>
+          <li>
+            <strong>PopupWidget</strong>
+          </li>
+          <li>
+            <strong>PopupButton</strong>
+          </li>
+          <li>
+            <strong>CustomButton</strong>
+          </li>
+          <li>
+            <strong>useCalendlyEventListener</strong>
+          </li>
         </div>
       </p>
       <ul className="pl-4 shadow-2xl rounded-xl">
@@ -44,7 +65,7 @@ const calendly = () => {
             rel="noreferrer"
             className="hover:text-green-700 "
           >
-            Official website
+            Calendly - official website
           </a>
         </li>
 

@@ -8,11 +8,22 @@ const html = () => {
         structure à la page Web que vous pouvez styliser à l'aide de CSS et
         rendre interactive à l'aide de JavaScript.
         <br />
-        📌 voir Accessibility
         <br />
-        📌 voir SEO
+        📌 voir <strong>Accessibility</strong>
+        <br />
+        📌 voir <strong>SEO</strong>
       </p>
       <ul className="pl-4 shadow-2xl rounded-xl">
+        <li>
+          <a
+            href="https://developer.mozilla.org/fr/docs/Web/HTML/Element#formulaires"
+            target="_blank"
+            rel="noreferrer"
+            className="hover:text-green-700 "
+          >
+            MDB web docs : Référence des éléments HTML
+          </a>
+        </li>
         <li>
           <a
             href="https://www.w3schools.com/html/html_intro.asp"

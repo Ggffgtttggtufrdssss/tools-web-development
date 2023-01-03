@@ -27,7 +27,27 @@ const tailwind = () => {
             rel="noreferrer"
             className="hover:text-green-700 "
           >
-            Official website
+            Tailwindcss - official website
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://nerdcave.com/tailwind-cheat-sheet"
+            target="_blank"
+            rel="noreferrer"
+            className="hover:text-green-700 "
+          >
+            Tailwindcss - Cheat Sheet
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://play.tailwindcss.com/iQx5HM8P79?size=1238x776"
+            target="_blank"
+            rel="noreferrer"
+            className="hover:text-green-700 "
+          >
+            Tailwindplay
           </a>
         </li>
 

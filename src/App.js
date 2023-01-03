@@ -11,6 +11,17 @@ import Chakra from "./pages/Chakra";
 import Tailwind from "./pages/Tailwind";
 import Babel from "./pages/Babel";
 import Calendly from "./pages/Calendly";
+import Http from "./pages/Http";
+import React from "./pages/React";
+import Context from "./pages/Context";
+import Hook from "./pages/Hook";
+import Next from "./pages/Next";
+import Express from "./pages/Express";
+import Node from "./pages/Node";
+import Typescript from "./pages/Typescript";
+import Three from "./pages/Three";
+import Strapi from "./pages/Strapi";
+import Notion from "./pages/Notion";
 import Navbar from "./components/NavBar";
 import Footer from "./components/Footer";
 import { Route, Routes } from "react-router-dom";
@@ -31,6 +42,17 @@ function App() {
         <Route path="tailwind" element={<Tailwind />} />
         <Route path="babel" element={<Babel />} />
         <Route path="calendly" element={<Calendly />} />
+        <Route path="react" element={<React />} />
+        <Route path="context" element={<Context />} />
+        <Route path="hook" element={<Hook />} />
+        <Route path="http" element={<Http />} />
+        <Route path="next" element={<Next />} />
+        <Route path="express" element={<Express />} />
+        <Route path="node" element={<Node />} />
+        <Route path="typescript" element={<Typescript />} />
+        <Route path="three" element={<Three />} />
+        <Route path="strapi" element={<Strapi />} />
+        <Route path="notion" element={<Notion />} />
       </Routes>
 
       <Footer />

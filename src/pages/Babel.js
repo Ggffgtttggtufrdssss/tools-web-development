@@ -4,6 +4,13 @@ const babel = () => {
   return (
     <div className="m-8 text-md lg:text-lg mb-12">
       <p className="mb-8">
+        <strong>Babel</strong> est un transcompilateur JavaScript gratuit et
+        open source qui est principalement utilisé pour convertir le code
+        ECMAScript 2015+ en code JavaScript rétrocompatible pouvant être exécuté
+        par des moteurs JavaScript plus anciens. Il permet aux développeurs Web
+        de tirer parti des dernières fonctionnalités du langage.
+        <br />
+        <br />
         Si vous souhaitez voir comment certains éléments JSX spécifiques sont
         compilés en JavaScript, vous pouvez utiliser le compilateur Babel en
         ligne.

@@ -32,25 +32,74 @@
   {
     "id": 5,
     "label": "React.js",
-    "description": "React.js - Librairie JS - Programmation",
+    "description": "React.js - Librairie JS - Langage de programmation",
     "url": "/react"
   },
-  { "id": 6, "label": "Redux", "description": "", "url": "" },
-  { "id": 7, "label": "Context", "description": "", "url": "" },
-  { "id": 8, "label": "Babel", "description": "Compilateur", "url": "/babel" },
-  { "id": 9, "label": "Express", "description": "", "url": "" },
-  { "id": 10, "label": "Hook", "description": "", "url": "" },
-  { "id": 11, "label": "TypeScript", "description": "", "url": "" },
-  { "id": 12, "label": "Node", "description": "", "url": "" },
-  { "id": 13, "label": "Three.js", "description": "", "url": "" },
+
+  {
+    "id": 6,
+    "label": "Hooks",
+    "description": "Bénéficier d’un état local et d’autres fonctionnalités de React.",
+    "url": "/hook"
+  },
+  {
+    "id": 7,
+    "label": "Context",
+    "description": "Passer des données à travers l’arborescence du composant en React.",
+    "url": "/context"
+  },
+  {
+    "id": 8,
+    "label": "Next",
+    "description": "Next.js - Framework JavaScript React - Langage de programmation ",
+    "url": "/next"
+  },
+  {
+    "id": 9,
+    "label": "TypeScript",
+    "description": "Langage de programmation",
+    "url": "/typescript"
+  },
+  { "id": 10, "label": "Babel", "description": "Compilateur", "url": "/babel" },
+  {
+    "id": 11,
+    "label": "Node",
+    "description": "Exécuter du code JS en dehors d'un navigateur web.",
+    "url": "/node"
+  },
+  {
+    "id": 12,
+    "label": "Express",
+    "description": "Infrastructure Web minimaliste, souple et rapide pour Node.js",
+    "url": "/express"
+  },
+
+  {
+    "id": 13,
+    "label": "Http response",
+    "description": "Status code",
+    "url": "/http"
+  },
+
   {
     "id": 14,
-    "label": "Next",
-    "description": "Next.js - Framework basé sur JavaScript",
-    "url": ""
+    "label": "Three.js",
+    "description": "Bibliothèque JavaScript pour créer des scènes 3D.",
+    "url": "/three"
   },
-  { "id": 15, "label": "Strapi", "description": "", "url": "" },
-  { "id": 16, "label": "Notion", "description": "", "url": "" },
+
+  {
+    "id": 15,
+    "label": "Strapi",
+    "description": "CMS headless",
+    "url": "/strapi"
+  },
+  {
+    "id": 16,
+    "label": "Notion",
+    "description": "CMS headless",
+    "url": "/notion"
+  },
   {
     "id": 17,
     "label": "Calendly agenda",
