@@ -15,7 +15,7 @@ const Card = ({ label, description, url }) => {
 
         <div className="back">
           <p className="description ">{description}</p>
-          <div className="pt-6">
+          <div className="pt-6 fixed bottom-2">
             <Link to={url}>
               <BtnCode label="Ressources" />
             </Link>
