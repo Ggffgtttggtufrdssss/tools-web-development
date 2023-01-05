@@ -6,7 +6,7 @@ import BtnCode from "./BtnCode";
 const ContactForm = () => {
   return (
     <section className="flex flex-col justify-center ">
-      <div className="group w-[150px] h-[150px] lg:w-[200px] lg:h-[200px] [perspective:1000px]">
+      <div className="group w-20 h-20 lg:w-28 lg:h-28 [perspective:1000px]">
         <div className="relative  w-full h-full rounded-xl  transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)] ">
           <div className="absolute inset-x-0 bottom-8 lg:inset-0">
             <span className="flex">
@@ -21,9 +21,9 @@ const ContactForm = () => {
           {/* backface */}
           <div className="absolute inset-x-0 bottom-0 lg:inset-0 h-full w-full rounded-xl  bg-black/60 px-2 py-2 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden] ">
             <div className="flex  flex-col items-center justify-center">
-              <p className="text-lg lg:text-2xl pt-8">Une idée ?</p>
+              <p className="text-xs lg:text-base pt-2">Une idée ?</p>
 
-              <div className="pt-6 fixed bottom-2 lg:bottom-4">
+              <div className="fixed bottom-2 lg:bottom-4">
                 <Link to="/contact">
                   <BtnCode label="Formulaire" />
                 </Link>

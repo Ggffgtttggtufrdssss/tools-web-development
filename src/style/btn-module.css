@@ -2,18 +2,19 @@
   position: relative;
   font-family: inherit;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: 0.05em;
   border-radius: 0.8em;
-  border: none;
+  border-color: rgb(124 58 237);
+  border-width: 2px;
   background: linear-gradient(to right, #8e2de2, #4a00e0);
   color: ghostwhite;
   overflow: hidden;
 }
 
 .cssbuttons-io svg {
-  width: 1.2em;
-  height: 1.2em;
+  width: 1em;
+  height: 1em;
   margin-right: 0.5em;
 }
 
@@ -23,7 +24,7 @@
   transition: color 0.4s;
   display: inline-flex;
   align-items: center;
-  padding: 0.4em 1em 0.4em 1em;
+  padding: 0.2em 0.5em 0.2em 0.5em;
 }
 
 .cssbuttons-io::before,
@@ -52,3 +53,9 @@
 .cssbuttons-io:active {
   transform: scale(0.95);
 }
+
+@media screen and (max-width: 1055px) {
+  .cssbuttons-io span {
+    padding: 0em 0.5em 0em 0.5em;
+  }
+} ;
