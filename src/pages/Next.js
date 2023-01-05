@@ -2,7 +2,7 @@ import React from "react";
 
 const next = () => {
   return (
-    <div className="m-8 text-md lg:text-lg mb-12">
+    <div className="mx-8 lg:mx-20 my-12 text-md lg:text-lg mb-12">
       <p className="mb-8">
         <strong>Next.js</strong> est un framework gratuit et open source,
         développé par Vercel en 2016, s'appuyant sur la bibliothèque JavaScript

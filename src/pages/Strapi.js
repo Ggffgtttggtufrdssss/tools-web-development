@@ -2,7 +2,7 @@ import React from "react";
 
 const strapi = () => {
   return (
-    <div className="m-8 text-md lg:text-lg mb-12">
+    <div className="mx-8 lg:mx-20 my-12 text-md lg:text-lg mb-12">
       <p className="mb-8">
         <strong>Strapi</strong> est un CMS headless, open-source, javascript,
         permettant de créer, gérer et exposer des expériences riches en contenu

@@ -11,7 +11,7 @@ const PopupCalendly = () => {
         url="https://calendly.com/acmesales"
         rootElement={document.getElementById("root")}
         color="#526DFE"
-        text="Integration de Calendly"
+        text="RV Calendly"
         textColor="#ffffff"
       />
     </div>

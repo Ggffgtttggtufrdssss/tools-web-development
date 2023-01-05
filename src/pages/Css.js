@@ -2,7 +2,7 @@ import React from "react";
 
 const css = () => {
   return (
-    <div className="m-8 text-md lg:text-lg mb-12">
+    <div className="mx-8 lg:mx-20 my-12 text-md lg:text-lg mb-12">
       <p className="mb-8">
         <strong>CSS</strong> est la langue utilisée pour styliser l'avant-plan
         de tout site Web. CSS est une technologie de pierre angulaire du World
@@ -76,6 +76,7 @@ const css = () => {
             Watch : CSS Masterclass - Tutorial & Course for Beginners
           </a>
         </li>
+        <hr className="border-black mx-5 border-2 my-4 font-extrabold" />
       </ul>
     </div>
   );

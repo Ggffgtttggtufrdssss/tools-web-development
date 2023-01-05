@@ -1,14 +1,21 @@
 import React from "react";
 
 import myYear from "../images/gif.png";
+import ContactForm from "./ContactForm";
 import PopupCalendly from "./PopupCalendly";
 
 const Banner = () => {
   return (
     <div>
       <PopupCalendly />
-      <div className="flex items-left ">
-        <img src={myYear} alt="présentation 2023" className="h-1/5 w-1/5 " />
+      <div className="flex  justify-around items-center ">
+        <img
+          src={myYear}
+          alt="présentation 2023"
+          className="h-2/5 lg:h-1/5 w-2/5 lg:w-1/5 "
+        />
+
+        <ContactForm />
       </div>
       <section className="bg-black">
         <div className="max-w-lg bg-black px-4  py-8 mx-auto text-left  md:text-center">
@@ -23,6 +30,7 @@ const Banner = () => {
           </h1>
           <div className="mx-auto rounded-lg font-black mt-5 text-zinc-400 md:mt-12 md:max-w-lg text-center lg:text-lg"></div>
         </div>
+
         <hr className="text-white mx-5" />
       </section>
     </div>

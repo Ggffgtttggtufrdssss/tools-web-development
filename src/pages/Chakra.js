@@ -2,7 +2,7 @@ import React from "react";
 
 const chakra = () => {
   return (
-    <div className="m-8 text-md lg:text-lg mb-12">
+    <div className="mx-8 lg:mx-20 my-12 text-md lg:text-lg mb-12">
       <p className="mb-8">
         <strong>Chakra UI</strong> est une bibliothèque de composants simple,
         modulaire et accessible qui vous donne les blocs de construction dont

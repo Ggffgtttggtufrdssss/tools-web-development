@@ -2,7 +2,7 @@ import React from "react";
 
 const three = () => {
   return (
-    <div className="m-8 text-md lg:text-lg mb-12">
+    <div className="mx-8 lg:mx-20 my-12 text-md lg:text-lg mb-12">
       <p className="mb-8">
         <strong>Three.js</strong> est une bibliothèque JavaScript pour créer des
         scènes 3D dans un navigateur web. Elle peut être utilisée avec la balise

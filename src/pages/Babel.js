@@ -2,7 +2,7 @@ import React from "react";
 
 const babel = () => {
   return (
-    <div className="m-8 text-md lg:text-lg mb-12">
+    <div className="mx-8 lg:mx-20 my-12 text-md lg:text-lg mb-12">
       <p className="mb-8">
         <strong>Babel</strong> est un transcompilateur JavaScript gratuit et
         open source qui est principalement utilisé pour convertir le code

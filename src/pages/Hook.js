@@ -2,7 +2,7 @@ import React from "react";
 
 const hook = () => {
   return (
-    <div className="m-8 text-md lg:text-lg mb-12">
+    <div className="mx-8 lg:mx-20 my-12 text-md lg:text-lg mb-12">
       <p className="mb-8">
         Les <strong>HOOKS</strong> React sont des fonctions JavaScript simples
         que nous pouvons utiliser pour isoler la pièce réutilisable d'un

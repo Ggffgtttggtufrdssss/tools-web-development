@@ -2,7 +2,7 @@ import React from "react";
 
 const tailwind = () => {
   return (
-    <div className="m-8 text-md lg:text-lg mb-12">
+    <div className="mx-8 lg:mx-20 my-12 text-md lg:text-lg mb-12">
       <p className="mb-8">
         CSS Framework qui fournit des classes CSS atomiques pour vous aider à
         styliser des composants, par exemple <strong>flex</strong>,{" "}

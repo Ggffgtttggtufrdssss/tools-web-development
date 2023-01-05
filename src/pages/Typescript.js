@@ -2,7 +2,7 @@ import React from "react";
 
 const typescript = () => {
   return (
-    <div className="m-8 text-md lg:text-lg mb-12">
+    <div className="mx-8 lg:mx-20 my-12 text-md lg:text-lg mb-12">
       <p className="mb-8">
         <strong>TypeScript</strong> est un langage de programmation libre et
         open source développé par Microsoft qui a pour but d'améliorer et de

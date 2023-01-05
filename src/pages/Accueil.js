@@ -5,7 +5,7 @@ import SearchBar from "../components/SearchBar";
 
 const accueil = () => {
   return (
-    <div className="flex flex-wrap gap-4 text-center  justify-center bg-black py-4">
+    <div className="flex flex-wrap gap-4 text-center  justify-center bg-black py-4 ">
       <SearchBar />
       {/* {datas.map((item, index) => (
         <Card

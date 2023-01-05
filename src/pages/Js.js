@@ -2,7 +2,7 @@ import React from "react";
 
 const js = () => {
   return (
-    <div className="m-8 text-md lg:text-lg mb-12">
+    <div className="mx-8 lg:mx-20 my-12 text-md lg:text-lg mb-12">
       <p className="mb-8">
         <strong>JavaScript</strong> vous permet d'ajouter de l'interactivité à
         vos pages. Les exemples courants que vous avez peut-être vus sur les

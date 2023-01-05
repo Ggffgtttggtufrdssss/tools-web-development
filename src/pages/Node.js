@@ -2,7 +2,7 @@ import React from "react";
 
 const node = () => {
   return (
-    <div className="m-8 text-md lg:text-lg mb-12">
+    <div className="mx-8 lg:mx-20 my-12 text-md lg:text-lg mb-12">
       <p className="mb-8">
         <strong>Node.js</strong> est un environnement d'exécution JavaScript
         développé par Ryan Dahl en 2009. Sa capacité à exécuter du code JS en

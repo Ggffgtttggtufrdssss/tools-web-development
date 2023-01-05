@@ -2,7 +2,7 @@ import React from "react";
 
 const express = () => {
   return (
-    <div className="m-8 text-md lg:text-lg mb-12">
+    <div className="mx-8 lg:mx-20  my-12 text-md lg:text-lg mb-12">
       <p className="mb-8">
         <strong>Express.js</strong> est un framework pour construire des
         applications web basées sur Node.js. C'est de fait le framework standard
