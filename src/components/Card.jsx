@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import "../style/card-module.css";
+import "../styles/card-module.css";
 import BtnCode from "./BtnCode";
 
 const Card = ({ label, description, url }) => {

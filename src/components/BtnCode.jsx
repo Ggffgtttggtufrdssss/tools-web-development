@@ -1,6 +1,6 @@
 import React from "react";
 
-import "../style/btn-module.css";
+import "../styles/btn-module.css";
 
 const BtnCode = ({ label }) => {
   return (

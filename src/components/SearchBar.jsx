@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../style/search-module.css";
+// import "../styles/search-module.css";
 import datas from "../data/datas.json";
 import Card from "./Card";
 
@@ -8,8 +8,7 @@ const SearchBar = () => {
   const [searchTerm, setSearchterm] = useState("");
 
   const handleSearchTerm = (e) => {
-    const value = e.target.value;
-    value.length > 2 && setSearchterm(value);
+    setSearchterm(e.target.value);
   };
 
   // useEffect(() => {
@@ -19,18 +18,21 @@ const SearchBar = () => {
   // }, []);
 
   return (
-    <div className="p-8 ">
+    <div className="p-2 ">
       <input
         placeholder="Recherche..."
-        type="text"
-        className="input"
+        type="search"
+        className="border-[#526DFE] text-white border-2 border-solid rounded-lg px-2 py-2 bg-transparent "
         required=""
         onChange={handleSearchTerm}
       />
+
       <div className="flex flex-wrap gap-4 text-center  justify-center bg-black py-4">
         {datas
-          .filter((val) => {
-            return val.label.toLowerCase().includes(searchTerm.toLowerCase());
+          .filter((item) => {
+            return searchTerm.toLowerCase() === ""
+              ? item
+              : item.label.toLowerCase().includes(searchTerm.toLowerCase());
           })
           .map((item, index) => (
             <Card
