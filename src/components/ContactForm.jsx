@@ -15,7 +15,7 @@ const ContactForm = () => {
             <img
               src={mind_map}
               alt="mind"
-              className="h-2/5 lg:h-3/5 w-2/5 lg:w-3/5  rounded-xl object-cover shadow-xl shadow-black/40"
+              className="h-2/5 lg:h-4/5 w-4/5 lg:w-full  rounded-xl object-cover shadow-xl shadow-black/40"
             />
           </div>
           {/* backface */}
