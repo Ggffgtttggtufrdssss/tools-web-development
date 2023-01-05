@@ -24,7 +24,7 @@
   left: 0;
   bottom: 0;
   right: 0;
-  padding: 2em;
+  padding: 0.5em;
   transform-style: preserve-3d;
   backface-visibility: hidden;
 }

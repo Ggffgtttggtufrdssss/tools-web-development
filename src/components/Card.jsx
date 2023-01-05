@@ -9,7 +9,7 @@ const Card = ({ label, description, url }) => {
     <div className="card">
       <div className="content">
         <div className="front">
-          <h3 className="title">{label}</h3>
+          <h4 className="title">{label}</h4>
           <p className="subtitle"> Hover me :)</p>
         </div>
 
