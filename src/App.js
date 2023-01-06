@@ -22,6 +22,7 @@ import Typescript from "./pages/Typescript";
 import Three from "./pages/Three";
 import Strapi from "./pages/Strapi";
 import Notion from "./pages/Notion";
+import NotFound from "./pages/NotFound";
 import Navbar from "./components/NavBar";
 import Footer from "./components/Footer";
 import { Route, Routes } from "react-router-dom";
@@ -53,6 +54,7 @@ function App() {
         <Route path="three" element={<Three />} />
         <Route path="strapi" element={<Strapi />} />
         <Route path="notion" element={<Notion />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
 
       <Footer />
