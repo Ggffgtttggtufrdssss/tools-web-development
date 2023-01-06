@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-// import "../styles/search-module.css";
+
 import datas from "../data/datas.json";
 import Card from "./Card";
 

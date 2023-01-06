@@ -35,6 +35,16 @@ const typescript = () => {
             TypeScript - official website
           </a>
         </li>
+        <li>
+          <a
+            href="https://usehooks-ts.com/react-hook/use-debounce"
+            target="_blank"
+            rel="noreferrer"
+            className="hover:text-green-700 "
+          >
+            usehooks-ts
+          </a>
+        </li>
 
         <hr className="border-black mx-5 border-2 my-4 font-extrabold" />
       </ul>

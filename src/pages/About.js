@@ -5,7 +5,7 @@ const about = () => {
   return (
     <div className="flex flex-col lg:flex-row items-center mx-8 lg:mx-20 my-4 text-md lg:text-lg mb-12">
       <div>
-        <p className="text-black  text-base lg:text-xl mb-8 ">
+        <p className=" text-base lg:text-xl mb-8 ">
           🚧 Ce site est en cours de développement, et je vous invite à
           collaborer (idées, corrections, tutos...).
         </p>

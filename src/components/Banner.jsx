@@ -8,7 +8,7 @@ const Banner = () => {
   return (
     <div>
       <PopupCalendly />
-      <div className="flex  justify-around items-center ">
+      <div className="flex bg-white justify-around items-center ">
         <img
           src={myYear}
           alt="présentation 2023"

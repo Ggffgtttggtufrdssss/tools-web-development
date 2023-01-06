@@ -7,7 +7,7 @@
   text-align: center;
   position: relative;
   transition: all 2.25s;
-  background-color: rgb(127, 204, 240);
+  background-color: #5294fe;
   padding: 5em;
   transform-style: preserve-3d;
   border-radius: 4px;
@@ -40,7 +40,7 @@
 
 .back {
   transform: rotateY(0.5turn);
-  background-color: #009bff;
+  background-color: #526dfe;
 }
 
 .description {
