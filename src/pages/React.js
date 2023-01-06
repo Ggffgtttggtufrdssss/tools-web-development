@@ -44,7 +44,7 @@ const react = () => {
             href="https://fr.reactjs.org/"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-green-700 "
+            className="hover:text-teal-300 "
           >
             React js - official website
           </a>

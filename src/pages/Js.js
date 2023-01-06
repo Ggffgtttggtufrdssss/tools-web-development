@@ -20,7 +20,7 @@ const js = () => {
             href="https://www.w3schools.com/js/"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-green-700 "
+            className="hover:text-teal-300 "
           >
             W3Schools – JavaScript Tutorial
           </a>
@@ -30,7 +30,7 @@ const js = () => {
             href="https://javascript.info"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-green-700 "
+            className="hover:text-teal-300 "
           >
             The Modern JavaScript Tutorial
           </a>
@@ -40,7 +40,7 @@ const js = () => {
             href="https://www.javascripttutorial.net"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-green-700 "
+            className="hover:text-teal-300 "
           >
             Learn JavaScript: Covered many topics
           </a>

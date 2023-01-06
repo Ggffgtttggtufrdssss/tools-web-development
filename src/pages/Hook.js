@@ -22,7 +22,7 @@ const hook = () => {
             href="https://fr.reactjs.org/docs/hooks-intro.html"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-green-700 "
+            className="hover:text-teal-300 "
           >
             React js & Hooks - official website
           </a>

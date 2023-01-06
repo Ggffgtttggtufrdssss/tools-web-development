@@ -24,7 +24,7 @@ const notion = () => {
             href="https://developers.notion.com/reference/intro"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-green-700 "
+            className="hover:text-teal-300 "
           >
             Notion - official website
           </a>

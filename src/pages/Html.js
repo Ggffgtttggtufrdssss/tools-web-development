@@ -19,7 +19,7 @@ const html = () => {
             href="https://developer.mozilla.org/fr/docs/Web/HTML/Element#formulaires"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-green-700 "
+            className="hover:text-teal-300 "
           >
             MDB web docs : Référence des éléments HTML
           </a>
@@ -29,7 +29,7 @@ const html = () => {
             href="https://www.w3schools.com/html/html_intro.asp"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-green-700 "
+            className="hover:text-teal-300 "
           >
             W3Schools : Learn HTML{" "}
           </a>
@@ -39,7 +39,7 @@ const html = () => {
             href="https://htmlreference.io"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-green-700 "
+            className="hover:text-teal-300 "
           >
             Html reference.io : All HTML elements at a glance
           </a>
@@ -49,7 +49,7 @@ const html = () => {
             href="https://html.com"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-green-700 "
+            className="hover:text-teal-300 "
           >
             HTML For Beginners The Easy Way
           </a>
@@ -60,7 +60,7 @@ const html = () => {
             href="https://www.internetingishard.com/html-and-css/"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-green-700 "
+            className="hover:text-teal-300 "
           >
             Courses : Web Development Basics
           </a>
@@ -70,7 +70,7 @@ const html = () => {
             href="https://www.codecademy.com/learn/learn-html"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-green-700 "
+            className="hover:text-teal-300 "
           >
             Courses : Codecademy - Learn HTML
           </a>
@@ -80,7 +80,7 @@ const html = () => {
             href="https://github.com/denysdovhan/learnyouhtml"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-green-700 "
+            className="hover:text-teal-300 "
           >
             Courses : Interactive HTML Course
           </a>
@@ -91,7 +91,7 @@ const html = () => {
             href="https://www.youtube.com/watch?v=mJgBOIoGihA"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-green-700 "
+            className="hover:text-teal-300 "
           >
             Watch : HTML Full Course for Beginners | Complete All-in-One
             Tutorial
@@ -102,7 +102,7 @@ const html = () => {
             href="https://www.youtube.com/watch?v=pQN-pnXPaVg"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-green-700 "
+            className="hover:text-teal-300 "
           >
             Watch : HTML Full Course - Build a Website Tutorial
           </a>
@@ -112,7 +112,7 @@ const html = () => {
             href="https://www.youtube.com/watch?v=qz0aGYrrlhU"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-green-700 "
+            className="hover:text-teal-300 "
           >
             Watch : HTML Tutorial for Beginners: HTML Crash Course
           </a>

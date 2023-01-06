@@ -36,7 +36,7 @@ const express = () => {
             href="https://expressjs.com/fr/starter/installing.html"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-green-700 "
+            className="hover:text-teal-300 "
           >
             Express - official website
           </a>

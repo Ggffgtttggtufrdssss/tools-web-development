@@ -25,7 +25,7 @@ const tailwind = () => {
             href="https://tailwindcss.com"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-green-700 "
+            className="hover:text-teal-300 "
           >
             Tailwindcss - official website
           </a>
@@ -35,7 +35,7 @@ const tailwind = () => {
             href="https://nerdcave.com/tailwind-cheat-sheet"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-green-700 "
+            className="hover:text-teal-300 "
           >
             Tailwindcss - Cheat Sheet
           </a>
@@ -45,7 +45,7 @@ const tailwind = () => {
             href="https://play.tailwindcss.com/iQx5HM8P79?size=1238x776"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-green-700 "
+            className="hover:text-teal-300 "
           >
             Tailwindplay
           </a>

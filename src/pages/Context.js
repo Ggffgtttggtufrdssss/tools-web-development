@@ -33,7 +33,7 @@ const context = () => {
             href="https://fr.reactjs.org/docs/context.html#gatsby-focus-wrapper"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-green-700 "
+            className="hover:text-teal-300 "
           >
             React js & Context - official website
           </a>

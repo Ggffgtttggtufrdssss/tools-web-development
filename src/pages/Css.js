@@ -19,7 +19,7 @@ const css = () => {
             href="https://www.w3schools.com/css/"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-green-700 "
+            className="hover:text-teal-300 "
           >
             W3Schools : Learn CSS
           </a>
@@ -29,7 +29,7 @@ const css = () => {
             href="https://www.freecodecamp.org/learn/responsive-web-design/"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-green-700 "
+            className="hover:text-teal-300 "
           >
             FreeCodeCamp — Responsive Web Design
           </a>
@@ -39,7 +39,7 @@ const css = () => {
             href="https://learn.shayhowe.com/html-css/"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-green-700 "
+            className="hover:text-teal-300 "
           >
             Learn to Code HTML & CSS
           </a>
@@ -51,7 +51,7 @@ const css = () => {
             href="https://www.youtube.com/watch?v=yfoY53QXEnI"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-green-700 "
+            className="hover:text-teal-300 "
           >
             Watch : CSS Crash Course For Absolute Beginners
           </a>
@@ -61,7 +61,7 @@ const css = () => {
             href="https://www.youtube.com/watch?v=D-h8L5hgW-w"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-green-700 "
+            className="hover:text-teal-300 "
           >
             Watch : HTML and CSS Tutorial
           </a>
@@ -71,7 +71,7 @@ const css = () => {
             href="https://www.youtube.com/watch?v=FqmB-Zj2-PA"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-green-700 "
+            className="hover:text-teal-300 "
           >
             Watch : CSS Masterclass - Tutorial & Course for Beginners
           </a>

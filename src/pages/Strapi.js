@@ -56,7 +56,7 @@ const strapi = () => {
             href="https://strapi.io/tutorials"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-green-700 "
+            className="hover:text-teal-300 "
           >
             Strapi - official website
           </a>

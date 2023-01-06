@@ -18,7 +18,7 @@ const three = () => {
             href="https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-green-700 "
+            className="hover:text-teal-300 "
           >
             Three.js - official website
           </a>

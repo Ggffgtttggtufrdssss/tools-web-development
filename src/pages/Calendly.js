@@ -24,7 +24,7 @@ const calendly = () => {
             href="https://www.npmjs.com/package/react-calendly?activeTab=readme"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-green-700 "
+            className="hover:text-teal-300 "
           >
             (voir doc npmjs de react-calendly)- possibilité de styliser avec
             <code>
@@ -63,7 +63,7 @@ const calendly = () => {
             href="https://calendly.com"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-green-700 "
+            className="hover:text-teal-300 "
           >
             Calendly - official website
           </a>

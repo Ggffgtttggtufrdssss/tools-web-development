@@ -26,7 +26,7 @@ const node = () => {
             href="https://nodejs.org/fr/"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-green-700 "
+            className="hover:text-teal-300 "
           >
             Node.js - official website
           </a>

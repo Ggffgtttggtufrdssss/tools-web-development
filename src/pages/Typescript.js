@@ -30,7 +30,7 @@ const typescript = () => {
             href="https://www.typescriptlang.org/fr/"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-green-700 "
+            className="hover:text-teal-300 "
           >
             TypeScript - official website
           </a>
@@ -40,7 +40,7 @@ const typescript = () => {
             href="https://usehooks-ts.com/react-hook/use-debounce"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-green-700 "
+            className="hover:text-teal-300 "
           >
             usehooks-ts
           </a>

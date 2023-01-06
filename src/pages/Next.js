@@ -17,7 +17,7 @@ const next = () => {
             href="https://nextjs.org/"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-green-700 "
+            className="hover:text-teal-300 "
           >
             Next.js - official website
           </a>
