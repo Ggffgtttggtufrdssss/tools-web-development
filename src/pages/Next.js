@@ -1,31 +1,18 @@
 import React from "react";
+import TemplatePage from "../components/TemplatePage";
 
 const next = () => {
   return (
-    <div className="mx-8 lg:mx-20 my-12 text-md lg:text-lg mb-12">
-      <p className="mb-8">
-        <strong>Next.js</strong> est un framework gratuit et open source,
-        développé par Vercel en 2016, s'appuyant sur la bibliothèque JavaScript
-        React et sur la technologie Node.js.
-        <br />
-        <br />
-        📌 maitriser un minimum JS est nécessaire
-      </p>
-      <ul className="pl-4 shadow-2xl rounded-xl">
-        <li>
-          <a
-            href="https://nextjs.org/"
-            target="_blank"
-            rel="noreferrer"
-            className="hover:text-teal-300 "
-          >
-            Next.js - official website
-          </a>
-        </li>
-
-        <hr className="border-black mx-5 border-2 my-4 font-extrabold" />
-      </ul>
-    </div>
+    <>
+      <TemplatePage
+        title="Next.js"
+        description="est un framework gratuit et open source, développé par Vercel en 2016, s'appuyant sur la bibliothèque JavaScript React et sur la technologie Node.js."
+        tips1="maitriser un minimum JS est nécessaire"
+        tips2="...et maitriser un minimum React"
+        titleUrl1=" Next.js - official website"
+        url1="https://nextjs.org/"
+      />
+    </>
   );
 };
 

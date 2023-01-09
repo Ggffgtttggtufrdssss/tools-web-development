@@ -12,6 +12,12 @@ const Navbar = () => {
           <Link to="/" className="px-4 py-2 text-white hover:bg-gray-700">
             Accueil
           </Link>
+          <Link
+            to="/article"
+            className="px-4 py-2 text-white hover:bg-gray-700"
+          >
+            Articles
+          </Link>
           <Link to="/about" className="px-4 py-2 text-white hover:bg-gray-700">
             À propos
           </Link>

@@ -1,38 +1,20 @@
 import React from "react";
+import TemplatePage from "../components/TemplatePage";
 
 const notion = () => {
   return (
-    <div className="mx-8 lg:mx-20 my-12 text-md lg:text-lg mb-12">
-      <p className="mb-8">
-        L'application <strong>Notion</strong> a été fondé en 2016 à San
-        Francisco.
-        <br />
-        <br />
-        Au début, il s'agit d'une application de prises de notes, puis elle
-        s'est étendue à un tableur, BDD, tableau Kanban, agenda....
-        <br />
-        <br />
-        <li>permet de gérer et stocker du contenu (type CRUD)</li>
-        <li>possède une API pour interagir avec le contenu</li>
-        <br />
-        <br />
-        📌 maitriser un minimum JS est nécessaire
-      </p>
-      <ul className="pl-4 shadow-2xl rounded-xl">
-        <li>
-          <a
-            href="https://developers.notion.com/reference/intro"
-            target="_blank"
-            rel="noreferrer"
-            className="hover:text-teal-300 "
-          >
-            Notion - official website
-          </a>
-        </li>
-
-        <hr className="border-black mx-5 border-2 my-4 font-extrabold" />
-      </ul>
-    </div>
+    <>
+      <TemplatePage
+        title="NOTION"
+        description="L'application Notion a été fondé en 2016 à San Francisco."
+        description2="Au début, il s'agit d'une application de prises de notes, puis elle s'est étendue à un tableur, BDD, tableau Kanban, agenda...."
+        text="Notion permet de gérer et stocker du contenu (type CRUD), et possède une API pour interagir avec le contenu"
+        tips1="maitriser un minimum JS est nécessaire"
+        tips2="permet de gérer un backend assez facilement"
+        titleUrl4="Notion - official website"
+        url4="https://developers.notion.com/reference/intro"
+      />
+    </>
   );
 };
 

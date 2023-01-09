@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Deploy on Netlify : https://spontaneous-strudel-315e1c.netlify.app/
 
 ## Available Scripts
 
