@@ -23,6 +23,7 @@ import Typescript from "./pages/Typescript";
 import Three from "./pages/Three";
 import Strapi from "./pages/Strapi";
 import Notion from "./pages/Notion";
+import Mentions from "./pages/MentionsLegales";
 import NotFound from "./pages/NotFound";
 import Navbar from "./components/NavBar";
 import Footer from "./components/Footer";
@@ -56,6 +57,7 @@ function App() {
         <Route path="three" element={<Three />} />
         <Route path="strapi" element={<Strapi />} />
         <Route path="notion" element={<Notion />} />
+        <Route path="mentions" element={<Mentions />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
 
