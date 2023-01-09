@@ -28,23 +28,21 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          <div className="w-full lg:w-6/12 px-4">
-            <div className="flex flex-wrap items-top mb-6">
-              <div className="w-full lg:w-4/12 px-4">
-                <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">
-                  LEGAL
-                </span>
-                <ul className="list-unstyled">
-                  <li>
-                    <a
-                      className="text-white hover:text-teal-300  font-semibold block pb-2 text-sm"
-                      href="/mentions"
-                    >
-                      Mentions légales
-                    </a>
-                  </li>
-                </ul>
-              </div>
+          <div className=" flex  items-top mb-6 w-full lg:w-6/12 px-4">
+            <div className="w-full mt-2 lg:mt-0 lg:w-4/12">
+              <span className="invisible lg:visible uppercase text-white text-sm font-semibold mb-2 ">
+                Legal
+              </span>
+              <ul className="list-unstyled">
+                <li>
+                  <a
+                    className="text-white hover:text-teal-300  font-semibold block pb-2 text-sm"
+                    href="/mentions"
+                  >
+                    Mentions légales
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
