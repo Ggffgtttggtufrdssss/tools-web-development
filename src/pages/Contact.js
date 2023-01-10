@@ -16,6 +16,7 @@ const contact = () => {
         method="post"
         data-netlify="true"
         onSubmit="submit"
+        data-netlify-honeypot="bot-field"
       >
         <input
           className="shadow appearance-none  rounded w-full py-2 px-3  leading-tight focus:outline-none focus:shadow-outline border-2 border-black"
@@ -23,6 +24,9 @@ const contact = () => {
           name="form-name"
           value="contact"
         />
+        <div hidden>
+          <input name="bot-field" />
+        </div>
         <label htmlFor="name">Nom:</label>
         <input
           type="text"
@@ -34,6 +38,7 @@ const contact = () => {
           Email:
         </label>
         <input
+          id="email"
           type="email"
           name="email"
           className=" block text-gray-700 text-sm font-bold mt-1 border-2 border-gray-300 rounded-lg"

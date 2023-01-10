@@ -9,10 +9,9 @@ const strapi = () => {
         description="est un CMS headless, open-source, javascript,
       permettant de créer, gérer et exposer des expériences riches en contenu
       à tout appareil numérique."
-        tips1="maitriser un minimum JS est nécessaire"
-        tips2="permet de gérer un backend assez facilement"
-        titleUrl4="Strapi - official website"
-        url4="https://strapi.io/tutorials"
+        origin="🇫🇷 Strapi a été lancé en mai 2016 en tant que projet étudiant par  Pierre Burgy (CEO), Aurélien Georget (chief product officer, CPO) et Jim Laurie (chief user success officer, CUSO)."
+        officialWebsite="https://strapi.io/tutorials"
+        cheatSheet="https://strapi.io/tutorials"
       />
       <div className="mx-8 lg:mx-28 my-12 text-md lg:text-lg mb-12">
         <p className="mb-8">

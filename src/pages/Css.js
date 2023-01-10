@@ -6,11 +6,10 @@ const css = () => {
     <>
       <TemplatePage
         title="CSS"
-        description="est la langue utilisée pour styliser l'avant-plan
-        de tout site Web. CSS est une technologie de pierre angulaire du World
-        Wide Web, aux côtés de HTML et de JavaScript."
-        tips1="voir Responsive design & Media Queries"
-        tips2="voir Tailwind, Chakra UI, Material UI..."
+        description="est la langue utilisée pour styliser l'avant-plan de tout site Web. CSS est une technologie de pierre angulaire du World Wide Web, aux côtés de HTML et de JavaScript."
+        origin="Développé par CSS Working Group. V1 sortie en 1996."
+        officialWebsite="https://www.w3.org/Style/CSS/Overview.fr.html"
+        cheatSheet="https://cssreference.io"
         titleUrl1="W3Schools : Learn CSS"
         url1="https://www.w3schools.com/css/"
         titleUrl2="FreeCodeCamp — Responsive Web Design"

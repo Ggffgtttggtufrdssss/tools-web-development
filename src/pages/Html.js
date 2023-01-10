@@ -6,11 +6,10 @@ const html = () => {
     <>
       <TemplatePage
         title="HTML"
-        description=" Langage de balisage. Il est utilisé sur le frontend et donne la
-      structure à la page Web que vous pouvez styliser à l'aide de CSS et
-    rendre interactive à l'aide de JavaScript."
-        tips1="voir l'Accessibility"
-        tips2="voir SEO"
+        description="Langage de balisage. Il est utilisé sur le frontend et donne la structure à la page Web que vous pouvez styliser à l'aide de CSS et rendre interactive à l'aide de JavaScript."
+        origin="Le langage HTML a été développé à l'origine par Tim Berners-Lee, alors au CERN, et popularisé par le navigateur Mosaic, développé au NCSA. Pendant les années 1990, il s'est épanoui en profitant de la croissance explosive du Web."
+        officialWebsite="https://validator.w3.org"
+        cheatSheet="https://developer.mozilla.org/fr/docs/Learn/HTML/Cheatsheet"
         titleUrl1="MDB web docs : Référence des éléments HTML"
         url1="https://developer.mozilla.org/fr/docs/Web/HTML/Element#formulaires"
         titleUrl2="W3Schools : Learn HTML"

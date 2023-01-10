@@ -3,10 +3,9 @@ import React from "react";
 const TemplatePage = ({
   title,
   description,
-  description2,
-  tips1,
-  tips2,
-  text,
+  officialWebsite,
+  origin,
+  cheatSheet,
   titleUrl1,
   titleUrl2,
   titleUrl3,
@@ -29,20 +28,41 @@ const TemplatePage = ({
   url10,
 }) => {
   return (
-    <div className="mx-8 lg:mx-28 my-12 text-md lg:text-lg mb-12">
+    <div className="mx-8 p-2 lg:p-8 lg:mx-48 my-12 text-md lg:text-lg mb-12 rounded-2xl bg-black shadow-lg shadow-white ">
       <h1 className="text-2xl pb-8">
         <strong>{title}</strong>
       </h1>
       <p className="mb-8">
         <strong>{title}</strong> {description} <br />
-        {description2}
         <br />
-        <br />
-        📌 {tips1}
-        <br />
-        📌 {tips2}
+        {origin}
       </p>
-      <p>{text}</p>
+      <h2>Official website</h2>
+      <ul className="pl-4 shadow-2xl rounded-xl">
+        <li>
+          {" "}
+          <a
+            href={officialWebsite}
+            target="_blank"
+            rel="noreferrer"
+            className="hover:text-teal-300 "
+          >
+            Site Officiel
+          </a>
+        </li>
+        <li>
+          {" "}
+          <a
+            href={cheatSheet}
+            target="_blank"
+            rel="noreferrer"
+            className="hover:text-teal-300 "
+          >
+            Cheat sheet
+          </a>
+        </li>
+      </ul>
+      <h2 className="mt-4">Ressources</h2>
       <ul className="pl-4 shadow-2xl rounded-xl">
         <li>
           <a
@@ -74,7 +94,7 @@ const TemplatePage = ({
             {titleUrl3}
           </a>
         </li>
-        <hr className="border-white mx-5 border-2 my-4 font-extrabold" />
+
         <li>
           <a
             href={url4}
@@ -105,7 +125,7 @@ const TemplatePage = ({
             {titleUrl6}
           </a>
         </li>
-        <hr className="border-white mx-5 border-2 my-4 font-extrabold" />
+
         <li>
           <a
             href={url7}
@@ -136,7 +156,7 @@ const TemplatePage = ({
             {titleUrl9}
           </a>
         </li>
-        <hr className="border-white mx-5 border-2 my-4 font-extrabold" />
+
         <li>
           <a
             href={url10}
@@ -147,7 +167,6 @@ const TemplatePage = ({
             {titleUrl10}
           </a>
         </li>
-        <hr className="border-white mx-5 border-2 my-4 font-extrabold" />
       </ul>
     </div>
   );

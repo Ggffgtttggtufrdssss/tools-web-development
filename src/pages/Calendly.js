@@ -14,9 +14,9 @@ const calendly = () => {
     ce qui leur permet de planifier facilement des rendez-vous ou des
     réunions avec l'utilisateur à un moment qui fonctionne pour les deux
     parties."
-        tips1="npm install --save react-calendly"
-        titleUrl4="Calendly - official website"
-        url4="https://calendly.com"
+        origin="Calendly a été fondée à Atlanta en 2013 par Tope Awotona."
+        officialWebsite="https://calendly.com/fr"
+        cheatSheet=""
         titleUrl7="Ajout de l'un des 5 widgets possibles"
         url7="https://www.npmjs.com/package/react-calendly?activeTab=readme"
       />

@@ -7,10 +7,9 @@ const react = () => {
       <TemplatePage
         title="REACT.js"
         description="Bibliothèque développée par Facebook avec une première version en 2011. Open source depuis 2013."
-        tips1=" maitriser un minimum JS est nécessaire"
-        tips2="est le choix idéal lorsque vous souhaitez développer des applications à page unique (SPA), car il peut réécrire et mettre à jour le contenu d'une page Web sans qu'il soit nécessaire de recharger ou de rafraîchir la page"
-        titleUrl4="React js - official website"
-        url4="https://fr.reactjs.org/"
+        origin="Version 1 en 2011"
+        officialWebsite="https://fr.reactjs.org/"
+        cheatSheet="https://fr.reactjs.org/"
       />
       <div className="mx-8 lg:mx-20 my-12 text-md lg:text-lg mb-12">
         <p className="mb-8">

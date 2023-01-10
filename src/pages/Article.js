@@ -8,7 +8,7 @@ const article = () => {
     <div className="text-center justify-center bg-black py-4 ">
       <div className="flex flex-wrap mx-5  justify-center gap-4">
         <div className="rounded-lg shadow-lg bg-white max-w-sm">
-          <img className="rounded-t-lg" src={photoArticle} alt="article" />
+          <img className="rounded-t-lg " src={photoArticle} alt="article" />
 
           <div className="p-6">
             <h5 className="text-gray-900 text-xl font-medium mb-2">
