@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import myYear from "../images/gif.png";
+import team from "../images/Team-collaboration.png";
 import BtnCode from "./BtnCode";
 import ContactForm from "./ContactForm";
 import PopupCalendly from "./PopupCalendly";
@@ -12,7 +12,7 @@ const Banner = () => {
       <PopupCalendly />
       <div className="flex bg-white justify-around items-center ">
         <img
-          src={myYear}
+          src={team}
           alt="présentation 2023"
           className="h-3/12 lg:h-2/12 w-3/12 lg:w-2/12 "
         />
@@ -25,7 +25,7 @@ const Banner = () => {
             <span className="inline md:block">Tools</span>
             <span className=" mt-2 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-emerald-400 to-green-500 md:inline-block">
               {" "}
-              & Shortcut
+              & Shortcuts
             </span>
             <span className="pl-1 mt-2 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-emerald-400 to-green-500 md:inline-block">
               For
@@ -41,13 +41,16 @@ const Banner = () => {
           <div className="mt-4 max-w-sm mx-auto sm:max-w-none text-center">
             <div className="space-y-4 sm:space-y-0 sm:mx-auto ">
               <Link to="/articleList">
-                <BtnCode label="Articles" />
+                <BtnCode label="ARTICLES" />
               </Link>
             </div>
           </div>
         </div>
 
         <hr className="text-white mx-5" />
+        <div className="mt-2 w-2/12 lg:w-1/12 text-xs lg:text-base text-center mx-5 border border-white rounded-full hover:bg-purple-800 cursor-pointer">
+          <Link to="/">Go back</Link>
+        </div>
       </section>
     </div>
   );

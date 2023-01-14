@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import { useAppContext } from "../context";
 
 const Single = () => {
@@ -8,12 +8,7 @@ const Single = () => {
   const post = posts.find((post) => post._id === params?.state?.id);
 
   return (
-    <>
-      <div className="p-2 w-2/12 lg:w-1/12 text-center font-semibold ml-8 border-2 border-white rounded-full hover:bg-[#526DFE] cursor-pointer">
-        {" "}
-        <Link to="/">Back</Link>
-      </div>
-
+    <div className="mt-2">
       <div className="mx-8 p-2 lg:p-8 lg:mx-48 my-12 text-md lg:text-lg mb-12 rounded-2xl bg-black shadow-lg shadow-white ">
         <h1 className="text-2xl pb-8">
           <strong>{post?.title}</strong>
@@ -23,10 +18,9 @@ const Single = () => {
           <br />
           {post?.origin}
         </p>
-        <h2>Official website</h2>
-        <ul className="pl-4 shadow-2xl rounded-xl">
+        <h2 className="underline">Ressources</h2>
+        <div className="pl-4 shadow-2xl rounded-xl">
           <li>
-            {" "}
             <a
               href={post?.officialWebsite}
               target="_blank"
@@ -47,8 +41,8 @@ const Single = () => {
               Cheat sheet
             </a>
           </li>
-        </ul>
-        <h2 className="mt-4">Ressources</h2>
+        </div>
+
         <ul className="pl-4 shadow-2xl rounded-xl">
           <li>{post?.content1}</li>
           <br />
@@ -145,9 +139,31 @@ const Single = () => {
               {post?.titleUrl8}
             </a>
           </li>
+          <li>
+            {" "}
+            <a
+              href={post?.url9}
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-teal-300 "
+            >
+              {post?.titleUrl9}
+            </a>
+          </li>
+          <li>
+            {" "}
+            <a
+              href={post?.ur10}
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-teal-300 "
+            >
+              {post?.titleUr10}
+            </a>
+          </li>
         </ul>
       </div>
-    </>
+    </div>
   );
 };
 

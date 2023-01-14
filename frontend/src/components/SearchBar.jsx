@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-// import { useEffect } from "react";
 import { useAppContext } from "../context";
-// import { getPosts } from "../service";
 import Card from "./Card";
 
 const SearchBar = () => {
@@ -12,9 +10,7 @@ const SearchBar = () => {
   const handleSearchTerm = (e) => {
     setSearchterm(e.target.value);
   };
-  // useEffect(() => {
-  //   getPosts();
-  // }, []);
+
   return (
     <div className="p-2 ">
       <input

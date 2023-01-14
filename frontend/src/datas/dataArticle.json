@@ -1,0 +1,19 @@
+[
+  {
+    "_id": 0,
+    "img": "https://images.unsplash.com/photo-1593486544625-13ef2368e43a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2041&q=80",
+    "title": "ChatGPT",
+    "titleTheme": "Intelligence Artificielle",
+    "description": "Vous vous posez une question ? Interrogez-le ? ...bluffant, voir flippant, mais est-ce bien fiable 🤔",
+    "url": ""
+  },
+
+  {
+    "_id": 1,
+    "img": "https://images.unsplash.com/photo-1580894896813-652ff5aa8146?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+    "title": "La place des femmes dans la Tech ",
+    "titleTheme": "Les Femmes & la Tech",
+    "description": "Toujours face à des préjugés en 2023 ?!",
+    "url": ""
+  }
+]

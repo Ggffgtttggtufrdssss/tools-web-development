@@ -22,37 +22,40 @@ const Contact = () => {
           type="hidden"
           name="form-name"
           value="contact"
+          required
         />
         <div hidden>
           <input name="bot-field" />
         </div>
-        <label htmlFor="name">Nom:</label>
+        <label htmlFor="name">Nom :</label>
         <input
+          className="block text-white p-2 text-sm font-bold mt-1 border-2 border-gray-300 rounded-lg"
           type="text"
           name="name"
-          className="block text-white p-2 text-sm font-bold mt-1 border-2 border-gray-300 rounded-lg"
+          required
         />
 
         <label htmlFor="email" className="mt-4">
-          Email:
+          Email :
         </label>
         <input
+          className=" block text-white p-2 text-sm font-bold mt-1 border-2 border-gray-300 rounded-lg"
           type="email"
           name="email"
-          className=" block text-white p-2 text-sm font-bold mt-1 border-2 border-gray-300 rounded-lg"
+          required
         />
 
         <label htmlFor="message" className="mt-4">
-          Boite à idées:
+          Boite à idées :
         </label>
         <textarea
-          name="message"
           className=" block text-white p-2 text-sm font-bold mt-1 border-2 border-gray-300 rounded-lg"
+          name="message"
         ></textarea>
 
         <button
-          type="submit"
           className="mt-4 rounded-lg  border-[#526DFE] border-4 hover:bg-[#526DFE] hover:text-white"
+          type="submit"
         >
           Envoyer
         </button>

@@ -1,9 +1,9 @@
 .cssbuttons-io {
   position: relative;
   font-family: inherit;
-  font-weight: 500;
+  font-weight: bold;
   font-size: 16px;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.1rem;
   border-radius: 0.8em;
   border-color: rgb(124 58 237);
   border-width: 2px;
@@ -24,7 +24,7 @@
   transition: color 0.4s;
   display: inline-flex;
   align-items: center;
-  padding: 0.2em 0.5em 0.2em 0.5em;
+  padding: 0.2em 1em 0.2em 1em;
 }
 
 .cssbuttons-io::before,
