@@ -1,57 +1,21 @@
 import express from "express";
-import dotenv from "dotenv";
-import { MongoClient, ServerApiVersion } from "mongodb";
 import cors from "cors";
+import path from "path";
 const app = express();
+const routes = express.Router();
 const port = 4000;
 
 app.use(cors());
 app.use(express.json());
-dotenv.config();
+app.use("/posts", routes);
+require("./routes")(routes);
 
-const uri = process.env.STRING_URI;
-const client = new MongoClient(uri, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-  serverApi: ServerApiVersion.v1,
-});
-
-app.get("/", (_, res) => {
-  client.connect((err, db) => {
-    console.log("connecté avec succès à la BDD");
-    if (err || !db) {
-      return false;
-    }
-    db.db("tools")
-      .collection("posts")
-      .find()
-      .toArray(function (err, results) {
-        if (!err) {
-          res.status(200).send(results);
-        }
-      });
-    // perform actions on the collection object
-    // client.close();
-  });
-});
-
-// const obj = { title: "titre", description: "blabla...." };
-app.post("/insert", (req, res) => {
-  client.connect((err, db) => {
-    console.log("connecté avec succès à la BDD");
-    if (err || !db) {
-      return false;
-    }
-    db.db("tools")
-      .collection("posts")
-      .insertOne(req.body, function (err, results) {
-        if (!err) {
-          res.status(200).send(results);
-        }
-      });
-  });
+const public_path = path.join(__dirname, "./build");
+app.use(express.static(public_path));
+app.get("*", (_, res) => {
+  res.sendFile(path.join(public_path, "index.html"));
 });
 
 app.listen(port, () => {
-  console.log(`Serveur connecté avec succès sur le port ${port}`);
+  console.log("serveur démarré avec succès sur le port 4000");
 });
