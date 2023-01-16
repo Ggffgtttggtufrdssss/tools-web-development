@@ -29,7 +29,7 @@ const Contact = () => {
         </div>
         <label htmlFor="name">Nom :</label>
         <input
-          className="block text-white p-2 text-sm font-bold mt-1 border-2 border-gray-300 rounded-lg"
+          className="block text-black p-2 text-sm font-bold mt-1 border-2 border-gray-300 rounded-lg"
           type="text"
           name="name"
           required
@@ -39,7 +39,7 @@ const Contact = () => {
           Email :
         </label>
         <input
-          className=" block text-white p-2 text-sm font-bold mt-1 border-2 border-gray-300 rounded-lg"
+          className=" block text-black p-2 text-sm font-bold mt-1 border-2 border-gray-300 rounded-lg"
           type="email"
           name="email"
           required
@@ -49,7 +49,7 @@ const Contact = () => {
           Boite à idées :
         </label>
         <textarea
-          className=" block text-white p-2 text-sm font-bold mt-1 border-2 border-gray-300 rounded-lg"
+          className=" block text-black p-2 text-sm font-bold mt-1 border-2 border-gray-300 rounded-lg"
           name="message"
         ></textarea>
 
