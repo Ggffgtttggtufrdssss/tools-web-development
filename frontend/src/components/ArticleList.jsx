@@ -15,7 +15,7 @@ const ArticleList = () => {
               title={item.title}
               titleTheme={item.titleTheme}
               description={item.description}
-              url=""
+              url={item.url}
             />
           );
         })}

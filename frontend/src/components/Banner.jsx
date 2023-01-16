@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 import team from "../images/Team-collaboration.png";
 import BtnCode from "./BtnCode";
@@ -7,6 +7,8 @@ import ContactForm from "./ContactForm";
 import PopupCalendly from "./PopupCalendly";
 
 const Banner = () => {
+  const location = useLocation();
+
   return (
     <div>
       <PopupCalendly />
@@ -48,8 +50,9 @@ const Banner = () => {
         </div>
 
         <hr className="text-white mx-5" />
+
         <div className="mt-2 w-2/12 lg:w-1/12 text-xs lg:text-base text-center mx-5 border border-white rounded-full hover:bg-purple-800 cursor-pointer">
-          <Link to="/">Go back</Link>
+          {location.pathname !== "/" && <Link to="/">Go back</Link>}
         </div>
       </section>
     </div>

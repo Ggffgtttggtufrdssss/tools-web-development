@@ -16,7 +16,7 @@ function App() {
     fetchPosts();
   }, [fetchPosts]);
   return (
-    <Router>
+    <Router basename="/">
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />

@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import BtnCode from "./BtnCode";
 
 const ArticleCard = ({ img, titleTheme, title, description, url }) => {
   return (
@@ -20,12 +20,9 @@ const ArticleCard = ({ img, titleTheme, title, description, url }) => {
           <div className="mb-4 text-grey-darker text-sm flex-1">
             <p>{description}</p>
           </div>
-          <Link
-            to={url}
-            className="w-1/4 mt-4 rounded-lg text-center text--[#526DFE] font-bold border-[#526DFE] border-2 hover:bg-[#526DFE] hover:text-white"
-          >
-            A LIRE
-          </Link>
+          <a href={url}>
+            <BtnCode label="A lire" />
+          </a>
         </div>
       </div>
     </div>
