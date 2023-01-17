@@ -8,9 +8,10 @@ const port = 4000;
 app.use(cors());
 app.use(express.json());
 app.use("/posts", routes);
+
 require("./routes")(routes);
 
-const public_path = path.join(__dirname, "./build");
+const public_path = path.join(__dirname, "./frontend/build");
 app.use(express.static(public_path));
 app.get("*", (_, res) => {
   res.sendFile(path.join(public_path, "index.html"));

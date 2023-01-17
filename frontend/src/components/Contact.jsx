@@ -1,7 +1,38 @@
-import React from "react";
+import React, { useState } from "react";
 import codeThinking from "../images/code-thinking.png";
 
-const Contact = () => {
+export default function Contact() {
+  const [formValue, setFormValue] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+
+  // const clearState = () => {
+  //   setFormValue({
+  //     name: "",
+  //     email: "",
+  //     message: "",
+  //   });
+  // };
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    const forms = {
+      data: {
+        name: formValue.name,
+        email: formValue.email,
+        message: formValue.message,
+      },
+    };
+  };
+
+  const handleChange = (event) => {
+    setFormValue({
+      ...formValue,
+      [event.target.name]: event.target.value,
+    });
+  };
+
   return (
     <div className="flex flex-col lg:flex-row m-2 lg:m-8 text-md lg:text-lg mb-12 items-center">
       <img
@@ -9,29 +40,28 @@ const Contact = () => {
         alt="idea"
         className="w-3/4 h-3/4 lg:w-1/2 lg:h-1/2"
       />
+
       <form
         className="flex flex-col pt-2 w-3/4 h-3/4 lg:w-1/2 lg:h-1/2 "
-        name="contact"
-        method="post"
-        data-netlify="true"
-        onSubmit="submit"
-        data-netlify-honeypot="bot-field"
+        action=""
+        method="POST"
+        onSubmit={handleSubmit}
       >
         <input
           className="shadow appearance-none  rounded w-full py-2 px-3  leading-tight focus:outline-none focus:shadow-outline border-2 border-black"
           type="hidden"
           name="form-name"
           value="contact"
-          required
         />
-        <div hidden>
-          <input name="bot-field" />
-        </div>
+
         <label htmlFor="name">Nom :</label>
         <input
           className="block text-black p-2 text-sm font-bold mt-1 border-2 border-gray-300 rounded-lg"
           type="text"
           name="name"
+          placeholder="Nom"
+          value={formValue.name}
+          onChange={handleChange}
           required
         />
 
@@ -40,8 +70,11 @@ const Contact = () => {
         </label>
         <input
           className=" block text-black p-2 text-sm font-bold mt-1 border-2 border-gray-300 rounded-lg"
-          type="email"
+          type="text"
           name="email"
+          placeholder="Email"
+          value={formValue.email}
+          onChange={handleChange}
           required
         />
 
@@ -50,7 +83,13 @@ const Contact = () => {
         </label>
         <textarea
           className=" block text-black p-2 text-sm font-bold mt-1 border-2 border-gray-300 rounded-lg"
+          htmlFor="message"
+          type="text"
           name="message"
+          placeholder="Message"
+          value={formValue.message}
+          onChange={handleChange}
+          required
         ></textarea>
 
         <button
@@ -62,6 +101,4 @@ const Contact = () => {
       </form>
     </div>
   );
-};
-
-export default Contact;
+}

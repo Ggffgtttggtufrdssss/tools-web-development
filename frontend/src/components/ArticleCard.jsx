@@ -20,7 +20,7 @@ const ArticleCard = ({ img, titleTheme, title, description, url }) => {
           <div className="mb-4 text-grey-darker text-sm flex-1">
             <p>{description}</p>
           </div>
-          <a href={url}>
+          <a href={url} target="_blank" rel="noreferrer">
             <BtnCode label="A lire" />
           </a>
         </div>
