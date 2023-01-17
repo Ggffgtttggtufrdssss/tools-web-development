@@ -1,5 +1,5 @@
-import dotenv from "dotenv";
-import { MongoClient, ServerApiVersion } from "mongodb";
+const dotenv = require("dotenv");
+const { MongoClient, ServerApiVersion } = require("mongodb");
 
 dotenv.config();
 

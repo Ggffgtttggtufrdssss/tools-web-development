@@ -1,6 +1,5 @@
-import { getPosts } from "./handlers";
+const { getPosts } = require("./handlers");
 
 module.exports = (routes) => {
   routes.get("/", getPosts);
-  // routes.post("/", postContacts);
 };
