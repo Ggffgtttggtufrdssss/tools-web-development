@@ -8,22 +8,9 @@ export default function Contact() {
     message: "",
   });
 
-  // const clearState = () => {
-  //   setFormValue({
-  //     name: "",
-  //     email: "",
-  //     message: "",
-  //   });
-  // };
   const handleSubmit = async (event) => {
     event.preventDefault();
-    const forms = {
-      data: {
-        name: formValue.name,
-        email: formValue.email,
-        message: formValue.message,
-      },
-    };
+    console.log(formValue);
   };
 
   const handleChange = (event) => {
