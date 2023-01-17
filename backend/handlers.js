@@ -1,4 +1,4 @@
-const { client } = require("./MongoClient");
+import { client } from "./MongoClient";
 
 const COLLECTION = "posts";
 
