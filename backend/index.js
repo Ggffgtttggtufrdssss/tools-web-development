@@ -1,6 +1,7 @@
 const express = require("express");
-import cors from "cors";
-import path from "path";
+const cors = require("cors");
+const path = require("path");
+
 const app = express();
 const routes = express.Router();
 const port = 4000;
