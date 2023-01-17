@@ -14,6 +14,7 @@ const client = new MongoClient(uri, {
 module.exports = {
   client: (callback) => {
     client.connect((err, db) => {
+      console.log("connecter à la db");
       if (err || !db) {
         return false;
       }
