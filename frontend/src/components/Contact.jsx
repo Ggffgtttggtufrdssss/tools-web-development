@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useEffect } from "react";
 import codeThinking from "../images/code-thinking.png";
 
 export default function Contact() {
@@ -19,6 +20,8 @@ export default function Contact() {
       [event.target.name]: event.target.value,
     });
   };
+
+  useEffect(() => {}, []);
 
   return (
     <div className="flex flex-col lg:flex-row m-2 lg:m-8 text-md lg:text-lg mb-12 items-center">
