@@ -1,5 +1,6 @@
+// import axios from "axios";
 import React, { useState } from "react";
-import { useEffect } from "react";
+
 import codeThinking from "../images/code-thinking.png";
 
 export default function Contact() {
@@ -11,7 +12,17 @@ export default function Contact() {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
+
     console.log(formValue);
+
+    // axios
+    //   .post("http://localhost:4000", formValue)
+    //   .then((res) => {
+    //     console.log(res);
+    //   })
+    //   .catch((err) => {
+    //     console.log(err);
+    //   });
   };
 
   const handleChange = (event) => {
@@ -20,8 +31,6 @@ export default function Contact() {
       [event.target.name]: event.target.value,
     });
   };
-
-  useEffect(() => {}, []);
 
   return (
     <div className="flex flex-col lg:flex-row m-2 lg:m-8 text-md lg:text-lg mb-12 items-center">
@@ -47,6 +56,7 @@ export default function Contact() {
         <label htmlFor="name">Nom :</label>
         <input
           className="block text-black p-2 text-sm font-bold mt-1 border-2 border-gray-300 rounded-lg"
+          id="name"
           type="text"
           name="name"
           placeholder="Nom"
@@ -60,6 +70,7 @@ export default function Contact() {
         </label>
         <input
           className=" block text-black p-2 text-sm font-bold mt-1 border-2 border-gray-300 rounded-lg"
+          id="email"
           type="text"
           name="email"
           placeholder="Email"
@@ -74,6 +85,7 @@ export default function Contact() {
         <textarea
           className=" block text-black p-2 text-sm font-bold mt-1 border-2 border-gray-300 rounded-lg"
           htmlFor="message"
+          id="message"
           type="text"
           name="message"
           placeholder="Message"
