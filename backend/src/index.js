@@ -4,7 +4,7 @@ import path from "path";
 
 const app = express();
 const routes = express.Router();
-const port = 4000;
+const port = process.env.PORT || 4000;
 
 app.use(cors());
 app.use(express.json());
