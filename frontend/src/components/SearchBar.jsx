@@ -3,9 +3,9 @@ import { useAppContext } from "../context";
 import Card from "./Card";
 
 const SearchBar = () => {
-  const [{ posts }] = useAppContext();
-  const newsearch = Object.entries(posts);
-  console.log(typeof newsearch);
+  const { posts } = useAppContext();
+  const newsearch = Object.keys(posts);
+  console.log(typeof posts);
   const [searchTerm, setSearchterm] = useState("");
 
   const handleSearchTerm = (e) => {
