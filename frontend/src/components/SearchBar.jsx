@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import { useAppContext } from "../context";
-import { getPosts } from "../service";
 import Card from "./Card";
 
 const SearchBar = () => {
-  const value = useAppContext(getPosts);
+  const { posts } = useAppContext();
 
   const [searchTerm, setSearchterm] = useState("");
 
@@ -23,7 +22,7 @@ const SearchBar = () => {
       />
 
       <div className="flex flex-wrap gap-4 text-center  justify-center bg-black py-4 ">
-        {value
+        {posts
           .filter((post) => {
             return searchTerm.toLowerCase() === ""
               ? post
