@@ -4,8 +4,8 @@ import Card from "./Card";
 
 const SearchBar = () => {
   const { posts } = useAppContext();
-  const entries = Object.entries(posts);
-  console.log(typeof entries);
+  console.log(typeof posts);
+
   const [searchTerm, setSearchterm] = useState("");
 
   const handleSearchTerm = (e) => {
@@ -23,7 +23,7 @@ const SearchBar = () => {
       />
 
       <div className="flex flex-wrap gap-4 text-center  justify-center bg-black py-4 ">
-        {entries
+        {posts
           .filter((post) => {
             return searchTerm.toLowerCase() === ""
               ? post
