@@ -4,7 +4,6 @@ import Card from "./Card";
 
 const SearchBar = () => {
   const { posts } = useAppContext();
-  console.log(typeof posts);
 
   const [searchTerm, setSearchterm] = useState("");
 
