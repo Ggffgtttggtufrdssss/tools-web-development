@@ -7,7 +7,7 @@ import Loading from "./Loading";
 
 const SearchBar = () => {
   // const { posts } = useAppContext();
-  const [data, setData] = useState(null);
+  const [data, setData] = useState([]);
   const [searchTerm, setSearchterm] = useState("");
 
   const handleSearchTerm = (e) => {
