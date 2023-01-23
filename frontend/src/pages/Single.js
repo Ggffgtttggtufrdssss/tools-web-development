@@ -1,24 +1,24 @@
-import axios from "axios";
-import React, { useEffect, useState } from "react";
+// import axios from "axios";
+import React from "react";
 import { useLocation } from "react-router-dom";
-// import { useAppContext } from "../context";
+import { useAppContext } from "../context";
 
 const Single = () => {
-  // const { posts } = useAppContext();
-  const [data, setData] = useState([]);
+  const { posts } = useAppContext();
+  // const [data, setData] = useState([]);
   const params = useLocation();
-  const post = data.find((post) => post._id === params?.state?.id);
+  const post = posts.find((post) => post._id === params?.state?.id);
 
-  useEffect(() => {
-    axios
-      .get("http://localhost:4000/posts")
-      .then((res) => {
-        setData(res.data);
-      })
-      .catch((error) => {
-        console.log(error);
-      });
-  }, []);
+  // useEffect(() => {
+  //   axios
+  //     .get("http://localhost:4000/posts")
+  //     .then((res) => {
+  //       setData(res.data);
+  //     })
+  //     .catch((error) => {
+  //       console.log(error);
+  //     });
+  // }, []);
 
   return (
     <div className="mt-2">
