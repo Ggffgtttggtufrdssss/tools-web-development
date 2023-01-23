@@ -1,31 +1,19 @@
 import React, { useState } from "react";
-import axios from "axios";
-// import { useAppContext } from "../context";
+import { useAppContext } from "../context";
 import Card from "./Card";
 import Loading from "./Loading";
-import { useEffect } from "react";
 
 const SearchBar = () => {
-  // const { posts } = useAppContext();
-  const [data, setData] = useState([]);
-  console.log(data);
+  const { posts } = useAppContext();
+
+  console.log(posts);
   const [searchTerm, setSearchterm] = useState("");
 
   const handleSearchTerm = (e) => {
     setSearchterm(e.target.value);
   };
 
-  useEffect(() => {
-    axios
-      .get("/posts")
-      .then((res) => {
-        setData(res.data);
-      })
-      .catch((error) => {
-        console.log(error);
-      });
-  }, []);
-  if (data === null || undefined) {
+  if (posts === null || undefined) {
     return (
       <>
         <Loading />
@@ -43,7 +31,7 @@ const SearchBar = () => {
       />
 
       <div className="flex flex-wrap gap-4 text-center  justify-center bg-black py-4 ">
-        {data
+        {posts
           ?.filter((post) => {
             return searchTerm.toLowerCase() === ""
               ? post
