@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { useAppContext } from "../context";
 import Card from "./Card";
-import Loading from "./Loading";
 
 const SearchBar = () => {
   const { posts } = useAppContext();
@@ -13,13 +12,6 @@ const SearchBar = () => {
     setSearchterm(e.target.value);
   };
 
-  if (posts === null || undefined) {
-    return (
-      <>
-        <Loading />
-      </>
-    );
-  }
   return (
     <div className="p-2 ">
       <input
