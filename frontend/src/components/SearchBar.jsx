@@ -8,6 +8,7 @@ import { useEffect } from "react";
 const SearchBar = () => {
   // const { posts } = useAppContext();
   const [data, setData] = useState([]);
+  console.log(data);
   const [searchTerm, setSearchterm] = useState("");
 
   const handleSearchTerm = (e) => {
