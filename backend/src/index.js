@@ -6,7 +6,7 @@ const app = express();
 const routes = express.Router();
 const port = process.env.PORT || 4000;
 
-app.use(cors({ origin: process.env.CLIENT_URL }));
+app.use(cors());
 app.use(express.json());
 app.use("/posts", routes);
 
