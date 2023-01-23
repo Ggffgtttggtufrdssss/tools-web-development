@@ -1,17 +1,27 @@
-import React, { useState } from "react";
-import { useAppContext } from "../context";
+import axios from "axios";
+import React, { useEffect, useState } from "react";
+//import { useAppContext } from "../context";
 import Card from "./Card";
 
 const SearchBar = () => {
-  const { posts } = useAppContext();
-
-  console.log(posts);
+  //const { posts } = useAppContext();
+  const [data, setData] = useState([]);
+  console.log(data);
   const [searchTerm, setSearchterm] = useState("");
 
   const handleSearchTerm = (e) => {
     setSearchterm(e.target.value);
   };
-
+  useEffect(() => {
+    axios
+      .get("/posts")
+      .then((res) => {
+        setData(res.data);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  }, []);
   return (
     <div className="p-2 ">
       <input
@@ -23,7 +33,7 @@ const SearchBar = () => {
       />
 
       <div className="flex flex-wrap gap-4 text-center  justify-center bg-black py-4 ">
-        {posts
+        {data
           ?.filter((post) => {
             return searchTerm.toLowerCase() === ""
               ? post

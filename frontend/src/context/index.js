@@ -1,4 +1,10 @@
-import { createContext, useContext, useMemo, useState } from "react";
+import {
+  createContext,
+  useCallback,
+  useContext,
+  useMemo,
+  useState,
+} from "react";
 import { getPosts } from "../service";
 
 const AppContext = createContext();
@@ -7,12 +13,9 @@ const { Provider } = AppContext;
 const AppProvider = ({ children }) => {
   const [posts, setPosts] = useState([]);
 
-  // const fetchPosts = useCallback(() => {
-  //   getPosts().then(setPosts);
-  // }, []);
-  const fetchPosts = () => {
+  const fetchPosts = useCallback(() => {
     getPosts().then(setPosts);
-  };
+  }, []);
 
   const value = useMemo(() => {
     return {
