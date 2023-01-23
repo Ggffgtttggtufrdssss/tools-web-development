@@ -7,7 +7,9 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "d
 var app = (0, _express["default"])();
 var routes = _express["default"].Router();
 var port = process.env.PORT || 4000;
-app.use((0, _cors["default"])());
+app.use((0, _cors["default"])({
+  origin: process.env.CLIENT_URL
+}));
 app.use(_express["default"].json());
 app.use("/posts", routes);
 require("./routes")(routes);
