@@ -1,5 +1,6 @@
 {
   "name": "backend",
+  "homepage": ".",
   "version": "1.0.0",
   "description": "Outils du developpement web",
   "main": "index.js",

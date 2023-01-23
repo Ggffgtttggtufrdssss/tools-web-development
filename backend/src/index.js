@@ -14,7 +14,7 @@ require("./routes")(routes);
 
 const public_path = path.join(__dirname, "../build");
 app.use(express.static(public_path));
-app.get("*", (req, res) => {
+app.get("/*", (req, res) => {
   res.sendFile(path.join(public_path, "index.html"));
 });
 
