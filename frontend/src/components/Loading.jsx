@@ -3,7 +3,7 @@ import "../styles/loading-module.css";
 
 const Loading = () => {
   return (
-    <div>
+    <div className="justify-center items-center">
       <div
         aria-label="Orange and tan hamster running in a metal wheel"
         role="img"
