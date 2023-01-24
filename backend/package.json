@@ -1,6 +1,5 @@
 {
   "name": "backend",
-  "homepage": ".",
   "version": "1.0.0",
   "description": "Outils du developpement web",
   "main": "index.js",
@@ -24,8 +23,6 @@
   "devDependencies": {
     "@babel/core": "^7.20.12",
     "@babel/node": "^7.20.7",
-    "@babel/preset-env": "^7.20.2",
-    "babel-plugin-module-resolve": "^1.4.5",
-    "concurrently": "^7.6.0"
+    "@babel/preset-env": "^7.20.2"
   }
 }

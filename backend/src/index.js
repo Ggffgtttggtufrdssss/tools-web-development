@@ -9,7 +9,6 @@ const port = process.env.PORT || 4000;
 app.use(cors());
 app.use(express.json());
 app.use("/posts", routes);
-
 require("./routes")(routes);
 
 const public_path = path.join(__dirname, "../build");
