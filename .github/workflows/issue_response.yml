@@ -1,8 +1,9 @@
 name: Issue Response
 
 on:
-  issues:
-    types: [opened]
+  pull_request:
+    types:
+      - opened
 
 jobs:
   respond_to_issue:
